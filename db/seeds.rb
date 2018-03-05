@@ -22,6 +22,8 @@ monkish = Brewery.create(name: "Monkish Brewing Co.", location: "Torrance, CA")
 hill_farmstead = Brewery.create(name: "Hill Farmstead Brewery", location: "Greensboro Bend, VT")
 alchemist = Brewery.create(name: "The Alchemist", location: "Stowe, VT")
 
+oleg = User.create(name: "Oleg", email: "olegchursin@gmail.com", password: "password", location: "New York City", dob: "04/21/1984")
+kevin = User.create(name: "Kevin", email: "krandles@gmail.com", password: "password", location: "New York City", dob: "03/30/1977")
 
 beer_list = [
   ["Julius", tree_house, "IPA", 6.8],
